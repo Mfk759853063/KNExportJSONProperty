@@ -1,0 +1,25 @@
+{
+    "resultCode": 1,
+    "data": [{
+             "commodityCategoryId": 31,
+             "categoryName": "驾校活动页",
+             "orderValue": 0,
+             "shopFlag": false,
+             "remark": "{\"web\":\"sp_toptic/main.jsp\",\"mobile\":\"sp_toptic/main_mobile.jsp\"}",
+             "obtainTime": 24,
+             "parentCategoryId": 0,
+             "picUrlWeb": "http://img.huixianxia.com/group1/M10/category/activity/201512210001001.png",
+             "picUrlMobile": "http://img.huixianxia.com/group1/M10/category/activity/201512210001002.png"
+             }, {
+              "commodityCategoryId": 21,
+              "categoryName": "文娱用品",
+              "orderValue": 21,
+              "shopFlag": false,
+              "obtainTime": 24,
+              "parentCategoryId": 1,
+              "bizCategoryCode": "010000"
+              }],
+    "timeStamp": 1451289963800,
+    "failed": false,
+    "succeed": true
+}

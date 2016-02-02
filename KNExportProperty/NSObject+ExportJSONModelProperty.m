@@ -71,6 +71,9 @@
         return @{kKNMemoryType:@"assgin",kKNPropertyType:@"float"};
     } else if ([object isKindOfClass:[NSNumber class]] && !strcmp([object objCType], @encode(double))) {
         return @{kKNMemoryType:@"assgin",kKNPropertyType:@"double"};
+    } else if ([object isKindOfClass:[NSObject class]]){
+        NSString *className = [NSString stringWithFormat:@"%s*", object_getClassName(object)];
+        return @{kKNMemoryType:@"strong",kKNPropertyType:className};
     }
     return @{kKNMemoryType:@"strong",kKNPropertyType:@"unknown"};
 }

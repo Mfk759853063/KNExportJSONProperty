@@ -22,6 +22,7 @@
     NSData *data = [NSData dataWithContentsOfFile:filePath];
     NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
     [self printJSONPropertyCode:((NSArray *)[json valueForKeyPath:@"data"]).firstObject];
+//    [self printJSONPropertyCode:@{@"data":[NSDate date],@"image":[UIImage new],@"view":[UIView new]}];
 }
 
 - (void)didReceiveMemoryWarning {

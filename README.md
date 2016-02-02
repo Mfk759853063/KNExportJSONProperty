@@ -1,0 +1,2 @@
+# KNExportJSONProperty
+将JSON字典的属性打印出来,形式为Model的属性
